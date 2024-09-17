@@ -1,0 +1,24 @@
+name = "LinearAssignment"
+uuid = "e04a135d-938e-4d6d-a2bd-80fee3964557"
+authors = ["kamesy <ckames@physics.ubc.ca> and contributors"]
+version = "0.1.0"
+
+[deps]
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+[compat]
+Aqua = "0.8"
+SparseArrays = "1.6"
+StaticArrays = "1"
+Test = "1.6"
+julia = "1.6"
+
+[extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Aqua", "SparseArrays", "StaticArrays", "Test"]
